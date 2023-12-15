@@ -97,6 +97,7 @@ for (const file of commandFiles) {
   }
 }
 
+//GASと連携させる部分
 try {
   app.get("/", (req, res) => {
     res.send("Bot起動");
